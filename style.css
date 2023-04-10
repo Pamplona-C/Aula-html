@@ -8,15 +8,26 @@ p{
     color: blueviolet;
 }
 
-.box-red{
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.red{
     background-color: red;
 }
 
-.box-blue{
+.blue{
     background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
 }
 
 .box {
     width: 150px;
     height: 150px;
+    border: 1px solid black;
 }
+
